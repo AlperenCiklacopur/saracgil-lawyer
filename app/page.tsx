@@ -171,9 +171,6 @@ export default async function HomePage() {
                           className="w-full h-full object-contain relative z-10"
                         />
                       </div>
-                      <div className="absolute -bottom-2 -right-2 w-8 h-8 rounded-full bg-[#c5a059] text-[#071324] flex items-center justify-center shadow-lg">
-                        <Scale className="w-4 h-4" />
-                      </div>
                     </div>
 
                     <h3 className="font-serif text-2xl sm:text-3xl font-bold text-white tracking-wide mb-1">
@@ -198,8 +195,8 @@ export default async function HomePage() {
                       <div className="text-xs font-serif font-bold text-white mt-0.5">81 İl Adli Takip</div>
                     </div>
                     <div className="p-3 rounded-xl bg-[#0b1a30]/80 border border-[#142e54]">
-                      <div className="text-[10px] uppercase font-sans text-[#c5a059] font-bold">Bilişim Altyapısı</div>
-                      <div className="text-xs font-serif font-bold text-white mt-0.5">UYAP & e-Duruşma</div>
+                      <div className="text-[10px] uppercase font-sans text-[#c5a059] font-bold">Çalışma Saatleri</div>
+                      <div className="text-xs font-serif font-bold text-white mt-0.5">Pzt – Cmt: 08:30 – 18:00</div>
                     </div>
                     <div className="p-3 rounded-xl bg-[#0b1a30]/80 border border-[#142e54]">
                       <div className="text-[10px] uppercase font-sans text-[#c5a059] font-bold">Ofis Konumu</div>
