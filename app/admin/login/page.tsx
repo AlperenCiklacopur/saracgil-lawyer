@@ -55,16 +55,16 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md bg-[#0b1a30] border border-[#142e54] rounded-3xl shadow-2xl p-8 relative overflow-hidden">
         {/* Brand Logo Header */}
         <div className="flex items-center gap-4 mb-8">
-          <div className="h-16 p-1.5 rounded-2xl bg-[#071324] border border-[#c5a059]/40 shrink-0">
+          <div className="h-16 w-16 p-1.5 rounded-2xl bg-white border border-[#c5a059]/40 shrink-0 flex items-center justify-center">
             <img
-              src="/images/logo.jpg"
+              src="/images/logo.png"
               alt="Logo"
-              className="h-full w-auto object-contain"
+              className="h-full w-full object-contain"
             />
           </div>
           <div>
-            <h1 className="font-serif text-xl font-bold text-white tracking-wide">Melda Saraçgil</h1>
-            <p className="text-xs text-[#c5a059] font-sans font-bold tracking-wider mt-0.5 uppercase">İçerik & Blog Yönetimi</p>
+            <h1 className="font-serif text-xl font-bold text-white tracking-wide">Saraçgil Hukuk</h1>
+            <p className="text-xs text-[#c5a059] font-sans font-bold tracking-wider mt-0.5 uppercase">Yönetim Portalı</p>
           </div>
         </div>
 

@@ -80,9 +80,9 @@ export default function SecretLoginModal({ isOpen, onClose }: SecretLoginModalPr
 
         {/* Header with Official Logo */}
         <div className="flex items-center gap-4 mb-6">
-          <div className="h-14 p-1 rounded-xl bg-[#0b1a30] border border-[#c5a059]/40 shrink-0">
+          <div className="h-14 w-14 p-1 rounded-xl bg-white border border-[#c5a059]/40 shrink-0 flex items-center justify-center">
             <img
-              src="/images/logo.jpg"
+              src="/images/logo.png"
               alt="Logo"
               className="h-full w-auto object-contain"
             />
@@ -94,7 +94,7 @@ export default function SecretLoginModal({ isOpen, onClose }: SecretLoginModalPr
                 Gizli Portal
               </span>
             </div>
-            <p className="text-xs text-zinc-300 mt-0.5">Melda Saraçgil Hukuk & Danışmanlık</p>
+            <p className="text-xs text-zinc-300 mt-0.5">Saraçgil Hukuk Bürosu</p>
           </div>
         </div>
 

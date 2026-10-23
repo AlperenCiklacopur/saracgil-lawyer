@@ -16,31 +16,30 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://saracgil-lawyer.vercel.app'),
-  title: 'Melda Saraçgil Hukuk & Danışmanlık | İcra ve İflas Hukuku',
+  title: 'Saraçgil Hukuk Bürosu | İcra ve İflas Hukuku',
   description:
-    'Gaziantep merkezli Melda Saraçgil Hukuk & Danışmanlık; İcra ve İflas Hukuku, alacak tahsili, kambiyo takipleri ve kurumsal hukuk danışmanlığı alanında uzman ve kararlı çözümler sunar.',
+    'İstanbul Barosu levhasına kayıtlı Saraçgil Hukuk Bürosu; İcra ve İflas Hukuku, alacak tahsili, kambiyo takipleri ve kurumsal hukuk danışmanlığı alanında uzman ve kararlı çözümler sunar.',
   keywords: [
-    'Melda Saraçgil',
-    'Melda Saraçgil Hukuk & Danışmanlık',
     'Saraçgil Hukuk Bürosu',
-    'Gaziantep İcra Avukatı',
+    'Saraçgil Hukuk & Danışmanlık',
+    'İstanbul İcra Avukatı',
     'İcra ve İflas Hukuku',
     'Alacak Tahsili',
     'Karşılıksız Çek Şikayeti',
     'İhtiyati Haciz',
-    'Gaziantep Avukat',
+    'İstanbul Avukat',
   ],
-  authors: [{ name: 'Av. Melda Saraçgil' }],
+  authors: [{ name: 'Saraçgil Hukuk Bürosu' }],
   icons: {
-    icon: '/images/logo.jpg',
-    apple: '/images/logo.jpg',
+    icon: '/images/logo.png',
+    apple: '/images/logo.png',
   },
   openGraph: {
-    title: 'Melda Saraçgil Hukuk & Danışmanlık',
-    description: 'İcra ve İflas Hukuku, Alacak Yönetimi ve Genel Avukatlık Danışmanlığı - Gaziantep',
+    title: 'Saraçgil Hukuk Bürosu',
+    description: 'İcra ve İflas Hukuku, Alacak Yönetimi ve Genel Avukatlık Danışmanlığı - İstanbul Barosu',
     type: 'website',
     locale: 'tr_TR',
-    images: ['/images/logo.jpg'],
+    images: ['/images/logo.png'],
   },
 };
 

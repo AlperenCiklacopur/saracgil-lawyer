@@ -20,12 +20,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!post) {
     return {
-      title: 'Makale Bulunamadı | Melda Saraçgil Hukuk & Danışmanlık',
+      title: 'Makale Bulunamadı | Saraçgil Hukuk Bürosu',
     };
   }
 
   return {
-    title: `${post.title} | Melda Saraçgil Hukuk & Danışmanlık`,
+    title: `${post.title} | Saraçgil Hukuk Bürosu`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -154,10 +154,10 @@ export default async function BlogPostPage({ params }: PageProps) {
         {/* Author Bar with Official Logo Emblem */}
         <div className="flex items-center justify-between py-5 border-y border-[#e4ddd1] mb-10">
           <div className="flex items-center gap-3.5">
-            <div className="h-12 w-12 rounded-xl bg-[#0b1a30] border border-[#c5a059]/50 overflow-hidden p-1 shrink-0">
+            <div className="h-12 w-12 rounded-xl bg-white border border-[#c5a059]/50 overflow-hidden p-1 shrink-0 flex items-center justify-center">
               <img
-                src="/images/logo.jpg"
-                alt="MS Logo"
+                src="/images/logo.png"
+                alt="Saraçgil Logo"
                 className="h-full w-full object-contain"
               />
             </div>
@@ -167,7 +167,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             </div>
           </div>
           <div className="hidden sm:block text-xs font-sans text-[#546274]">
-            Gaziantep Barosu • Melda Saraçgil Hukuk & Danışmanlık
+            İstanbul Barosu • Saraçgil Hukuk Bürosu
           </div>
         </div>
 
@@ -181,7 +181,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <AlertTriangle className="w-5 h-5 text-[#c5a059] shrink-0 mt-0.5" />
           <div>
             <strong className="text-[#071324] font-semibold block mb-1">Yasal Bilgilendirme ve Uyarı:</strong>
-            Bu makalede sunulan açıklamalar genel bilgilendirme amacıyla kaleme alınmış olup, hukuki mütalaa veya avukatlık tavsiyesi teşkil etmez. Her hukuki uyuşmazlığın kendine özgü koşulları bulunduğundan, hak kaybına uğramamak adına somut dosyanız için Melda Saraçgil Hukuk & Danışmanlık ile irtibata geçmeniz tavsiye olunur.
+            Bu makalede sunulan açıklamalar genel bilgilendirme amacıyla kaleme alınmış olup, hukuki mütalaa veya avukatlık tavsiyesi teşkil etmez. Her hukuki uyuşmazlığın kendine özgü koşulları bulunduğundan, hak kaybına uğramamak adına somut dosyanız için Saraçgil Hukuk Bürosu ile irtibata geçmeniz tavsiye olunur.
           </div>
         </div>
 

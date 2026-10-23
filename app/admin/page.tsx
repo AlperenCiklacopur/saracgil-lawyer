@@ -8,7 +8,7 @@ import { getAllInquiries } from '@/lib/inquiry-service';
 import AdminDashboardClient from '@/components/AdminDashboardClient';
 
 export const metadata: Metadata = {
-  title: 'Yönetim Paneli | Melda Saraçgil Hukuk & Danışmanlık',
+  title: 'Yönetim Paneli | Saraçgil Hukuk Bürosu',
   robots: {
     index: false,
     follow: false,

@@ -62,7 +62,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6 text-zinc-300">
             <span className="flex items-center gap-2">
               <Clock className="w-3.5 h-3.5 text-[#c5a059]" />
-              <span>Hafta İçi: 08:30 – 18:00</span>
+              <span>Pazartesi – Cumartesi: 08:30 – 18:00</span>
             </span>
             <span className="text-[#142e54]">|</span>
             <Link 
@@ -87,19 +87,19 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo with uploaded official logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="h-12 sm:h-14 overflow-hidden rounded-lg border border-[#c5a059]/40 shadow-sm transition-transform group-hover:scale-[1.02] bg-[#0b1a30] p-1 flex items-center">
+            <div className="h-12 sm:h-14 w-12 sm:w-14 overflow-hidden rounded-xl border border-[#e4ddd1] shadow-sm transition-transform group-hover:scale-[1.02] bg-white p-1 flex items-center justify-center">
               <img
-                src="/images/logo.jpg"
-                alt="Melda Saraçgil Hukuk & Danışmanlık"
-                className="h-full w-auto object-contain"
+                src="/images/logo.png"
+                alt="Saraçgil Hukuk Bürosu"
+                className="h-full w-full object-contain"
               />
             </div>
             <div className="hidden sm:flex flex-col">
               <span className="font-serif text-lg font-bold tracking-wider text-[#0b1a30] leading-tight">
-                MELDA SARAÇGİL
+                SARAÇGİL
               </span>
               <span className="text-[10px] uppercase font-sans tracking-[0.2em] text-[#c5a059] font-bold">
-                Hukuk & Danışmanlık
+                Hukuk Bürosu
               </span>
             </div>
           </Link>

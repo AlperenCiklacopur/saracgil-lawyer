@@ -16,11 +16,11 @@ export default function Footer({ onSecretTrigger }: FooterProps) {
         <div className="border-b border-[#142e54] pb-12 mb-14">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-              <div className="h-16 sm:h-20 p-1.5 rounded-2xl bg-[#0b1a30] border border-[#c5a059]/40 shadow-xl overflow-hidden shrink-0">
+              <div className="h-16 sm:h-20 w-16 sm:w-20 p-1.5 rounded-2xl bg-white border border-[#c5a059]/40 shadow-xl overflow-hidden shrink-0 flex items-center justify-center">
                 <img
-                  src="/images/logo.jpg"
-                  alt="Melda Saraçgil Hukuk & Danışmanlık"
-                  className="h-full w-auto object-contain"
+                  src="/images/logo.png"
+                  alt="Saraçgil Hukuk Bürosu"
+                  className="h-full w-full object-contain"
                 />
               </div>
               <div>
@@ -28,7 +28,7 @@ export default function Footer({ onSecretTrigger }: FooterProps) {
                   / Hukuki Çözüm & Alacak Yönetimi /
                 </span>
                 <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-white tracking-wide font-bold">
-                  Melda Saraçgil Hukuk & Danışmanlık
+                  Saraçgil Hukuk Bürosu
                 </h2>
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function Footer({ onSecretTrigger }: FooterProps) {
               </li>
               <li className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-[#c5a059] shrink-0" />
-                <span>Hafta İçi: 08:30 – 18:00</span>
+                <span>Pazartesi – Cumartesi: 08:30 – 18:00</span>
               </li>
               <li className="flex items-center gap-2 pt-2 text-[11px] text-[#c5a059]">
                 <ShieldCheck className="w-4 h-4" />
@@ -164,7 +164,7 @@ export default function Footer({ onSecretTrigger }: FooterProps) {
         {/* Bottom Bar with Secret Trigger Dot */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-sans text-zinc-400">
           <div>
-            © 2026 MELDA SARAÇGİL HUKUK & DANIŞMANLIK. TÜM HAKLARI SAKLIDIR.
+            © 2026 SARAÇGİL HUKUK BÜROSU. TÜM HAKLARI SAKLIDIR.
             {/* Secret button dot */}
             <button
               type="button"
@@ -177,7 +177,7 @@ export default function Footer({ onSecretTrigger }: FooterProps) {
             </button>
           </div>
           <div className="flex items-center gap-4 text-zinc-400">
-            <span>Gaziantep Barosu</span>
+            <span>İstanbul Barosu</span>
             <span>/</span>
             <span>TBB Meslek Kuralları</span>
           </div>

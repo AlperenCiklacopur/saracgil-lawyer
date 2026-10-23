@@ -68,16 +68,16 @@ export default function ContactPage() {
           <div className="lg:col-span-5 space-y-8">
             <div className="p-8 rounded-2xl bg-white border border-[#e4ddd1] shadow-sm space-y-6">
               <div className="flex items-center gap-4 pb-6 border-b border-[#f6f1e8]">
-                <div className="h-14 p-1 rounded-xl bg-[#0b1a30] border border-[#c5a059]/40 shrink-0">
+                <div className="h-14 w-14 p-1 rounded-xl bg-white border border-[#c5a059]/40 shrink-0 flex items-center justify-center">
                   <img
-                    src="/images/logo.jpg"
-                    alt="Logo"
-                    className="h-full w-auto object-contain"
+                    src="/images/logo.png"
+                    alt="Saraçgil Hukuk Bürosu Logo"
+                    className="h-full w-full object-contain"
                   />
                 </div>
                 <div>
-                  <h3 className="font-serif text-xl font-bold text-[#071324]">Melda Saraçgil</h3>
-                  <p className="text-xs text-[#c5a059] font-sans font-bold uppercase tracking-wider">Hukuk & Danışmanlık</p>
+                  <h3 className="font-serif text-xl font-bold text-[#071324]">Saraçgil</h3>
+                  <p className="text-xs text-[#c5a059] font-sans font-bold uppercase tracking-wider">Hukuk Bürosu</p>
                 </div>
               </div>
 
@@ -104,7 +104,7 @@ export default function ContactPage() {
                   <Clock className="w-5 h-5 text-[#c5a059] shrink-0 mt-0.5" />
                   <div>
                     <strong className="block text-[#071324] mb-0.5 font-medium text-sm">Çalışma Saatleri</strong>
-                    <span>Pazartesi – Cuma: 08:30 – 18:00</span>
+                    <span>Pazartesi – Cumartesi: 08:30 – 18:00</span>
                   </div>
                 </div>
               </div>

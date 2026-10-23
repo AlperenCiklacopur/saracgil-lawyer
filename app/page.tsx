@@ -101,7 +101,7 @@ export default async function HomePage() {
                   </div>
                   <div>
                     <div className="font-serif text-sm font-bold text-white tracking-wide">
-                      T.C. Gaziantep Barosu
+                      T.C. İstanbul Barosu
                     </div>
                     <div className="text-[11px] text-[#c5a059] font-sans font-semibold mt-0.5">
                       Resmi Kayıtlı Avukatlık Bürosu
@@ -118,7 +118,7 @@ export default async function HomePage() {
                   <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] font-sans">
                     <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-[#e4ddd1] text-[#071324] font-medium shadow-sm">
                       <ShieldCheck className="w-3.5 h-3.5 text-[#c5a059]" />
-                      Gaziantep Barosu Levhası
+                      İstanbul Barosu Levhası
                     </span>
                     <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-[#e4ddd1] text-[#071324] font-medium shadow-sm">
                       <Building2 className="w-3.5 h-3.5 text-[#c5a059]" />
@@ -164,10 +164,10 @@ export default async function HomePage() {
                   {/* Central Emblem & Lawyer Title */}
                   <div className="flex flex-col items-center text-center my-2">
                     <div className="relative mb-5">
-                      <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl bg-[#071324] border-2 border-[#c5a059] p-3 shadow-2xl flex items-center justify-center relative overflow-hidden">
+                      <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl bg-white border-2 border-[#c5a059] p-3 shadow-2xl flex items-center justify-center relative overflow-hidden">
                         <img
-                          src="/images/logo.jpg"
-                          alt="Melda Saraçgil Logo"
+                          src="/images/logo.png"
+                          alt="Saraçgil Hukuk Bürosu Logo"
                           className="w-full h-full object-contain relative z-10"
                         />
                       </div>
@@ -180,7 +180,7 @@ export default async function HomePage() {
                       Av. Melda Saraçgil
                     </h3>
                     <p className="text-xs text-[#c5a059] font-sans font-semibold tracking-wider uppercase mb-3">
-                      Gaziantep Barosu • Kurucu Avukat
+                      İstanbul Barosu • Kurucu Avukat
                     </p>
                     <p className="text-xs text-zinc-300 font-sans max-w-sm leading-relaxed mb-4">
                       İcra ve İflas Hukuku başta olmak üzere ticari alacaklar, kambiyo takipleri ve kurumsal hukuki danışmanlık alanlarında yetkin temsil.
@@ -265,10 +265,10 @@ export default async function HomePage() {
             <div className="lg:col-span-5 relative">
               <div className="rounded-3xl overflow-hidden border-2 border-[#c5a059] shadow-xl bg-[#071324] text-white p-8">
                 <div className="flex items-center gap-4 mb-6 pb-6 border-b border-[#142e54]">
-                  <div className="w-16 h-16 rounded-2xl bg-[#0b1a30] border border-[#c5a059]/40 p-2 shrink-0 flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-2xl bg-white border border-[#c5a059]/40 p-2 shrink-0 flex items-center justify-center">
                     <img
-                      src="/images/logo.jpg"
-                      alt="Melda Saraçgil Logo"
+                      src="/images/logo.png"
+                      alt="Saraçgil Hukuk Bürosu Logo"
                       className="h-full w-auto object-contain"
                     />
                   </div>
@@ -291,7 +291,7 @@ export default async function HomePage() {
                 <div className="space-y-2.5 pt-4 border-t border-[#142e54] text-xs">
                   <div className="flex items-center gap-2.5 text-zinc-200">
                     <CheckCircle2 className="w-4 h-4 text-[#c5a059] shrink-0" />
-                    <span>Gaziantep Barosu Levhasına Kayıtlı</span>
+                    <span>İstanbul Barosu Levhasına Kayıtlı</span>
                   </div>
                   <div className="flex items-center gap-2.5 text-zinc-200">
                     <CheckCircle2 className="w-4 h-4 text-[#c5a059] shrink-0" />
@@ -438,7 +438,7 @@ export default async function HomePage() {
               <div className="w-10 h-10 rounded-xl bg-[#0b1a30] border border-[#c5a059]/40 flex items-center justify-center text-[#c5a059] mb-4">
                 <Scale className="w-5 h-5" />
               </div>
-              <h4 className="font-serif text-lg font-bold text-white mb-2">Gaziantep Barosu</h4>
+              <h4 className="font-serif text-lg font-bold text-white mb-2">İstanbul Barosu</h4>
               <p className="text-xs text-zinc-300 font-sans leading-relaxed">
                 Avukatlık meslek kurallarına ve etik ilkelerine tam bağlılıkla bağımsız ve yetkin vekillik.
               </p>

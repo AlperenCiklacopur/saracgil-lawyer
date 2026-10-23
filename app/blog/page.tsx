@@ -4,7 +4,7 @@ import { getAllPosts } from '@/lib/blog-service';
 import BlogListingClient from '@/components/BlogListingClient';
 
 export const metadata: Metadata = {
-  title: 'Hukuki Blog & Makaleler | Melda Saraçgil Hukuk & Danışmanlık',
+  title: 'Hukuki Blog & Makaleler | Saraçgil Hukuk Bürosu',
   description:
     'İcra ve İflas Hukuku, alacak tahsili, çek-senet uyuşmazlıkları ve şirketler için hukuki danışmanlık rehberleri.',
 };
@@ -24,7 +24,7 @@ export default async function BlogPage() {
             Hukuki Makaleler & İncelemeler
           </h1>
           <p className="text-sm md:text-base text-[#546274] font-sans max-w-3xl leading-relaxed">
-            Melda Saraçgil Hukuk & Danışmanlık olarak hazırladığımız güncel hukuki analizler, Yargıtay emsal kararları, icra takip süreleri ve alacak tahsilat stratejileri.
+            Saraçgil Hukuk Bürosu olarak hazırladığımız güncel hukuki analizler, Yargıtay emsal kararları, icra takip süreleri ve alacak tahsilat stratejileri.
           </p>
         </div>
 

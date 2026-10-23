@@ -442,10 +442,10 @@ export default function AdminDashboardClient({
         {/* Top Header */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-8 border-b border-[#e4ddd1]">
           <div className="flex items-center gap-4">
-            <div className="h-16 p-1.5 rounded-2xl bg-[#0b1a30] border border-[#c5a059]/40 shadow-md shrink-0">
+            <div className="h-16 w-16 p-1.5 rounded-2xl bg-white border border-[#c5a059]/40 shadow-md shrink-0 flex items-center justify-center">
               <img
-                src="/images/logo.jpg"
-                alt="Melda Saraçgil Logo"
+                src="/images/logo.png"
+                alt="Saraçgil Hukuk Bürosu Logo"
                 className="h-full w-auto object-contain"
               />
             </div>
