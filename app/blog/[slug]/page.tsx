@@ -156,7 +156,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <div className="flex items-center gap-3.5">
             <div className="h-12 w-12 rounded-xl bg-white border border-[#c5a059]/50 overflow-hidden p-1 shrink-0 flex items-center justify-center">
               <img
-                src="/images/logo.png"
+                src="/images/logo.png?v=2"
                 alt="Saraçgil Logo"
                 className="h-full w-full object-contain"
               />

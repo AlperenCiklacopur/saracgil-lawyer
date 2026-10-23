@@ -18,7 +18,7 @@ export default function Footer({ onSecretTrigger }: FooterProps) {
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
               <div className="h-16 sm:h-20 w-16 sm:w-20 p-1.5 rounded-2xl bg-white border border-[#c5a059]/40 shadow-xl overflow-hidden shrink-0 flex items-center justify-center">
                 <img
-                  src="/images/logo.png"
+                  src="/images/logo.png?v=2"
                   alt="Saraçgil Hukuk Bürosu"
                   className="h-full w-full object-contain"
                 />

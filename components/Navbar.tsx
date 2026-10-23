@@ -89,7 +89,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="h-12 sm:h-14 w-12 sm:w-14 overflow-hidden rounded-xl border border-[#e4ddd1] shadow-sm transition-transform group-hover:scale-[1.02] bg-white p-1 flex items-center justify-center">
               <img
-                src="/images/logo.png"
+                src="/images/logo.png?v=2"
                 alt="Saraçgil Hukuk Bürosu"
                 className="h-full w-full object-contain"
               />

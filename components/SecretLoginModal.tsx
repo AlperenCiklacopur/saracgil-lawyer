@@ -82,7 +82,7 @@ export default function SecretLoginModal({ isOpen, onClose }: SecretLoginModalPr
         <div className="flex items-center gap-4 mb-6">
           <div className="h-14 w-14 p-1 rounded-xl bg-white border border-[#c5a059]/40 shrink-0 flex items-center justify-center">
             <img
-              src="/images/logo.png"
+              src="/images/logo.png?v=2"
               alt="Logo"
               className="h-full w-auto object-contain"
             />

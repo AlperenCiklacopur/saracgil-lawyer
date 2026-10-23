@@ -444,7 +444,7 @@ export default function AdminDashboardClient({
           <div className="flex items-center gap-4">
             <div className="h-16 w-16 p-1.5 rounded-2xl bg-white border border-[#c5a059]/40 shadow-md shrink-0 flex items-center justify-center">
               <img
-                src="/images/logo.png"
+                src="/images/logo.png?v=2"
                 alt="Saraçgil Hukuk Bürosu Logo"
                 className="h-full w-auto object-contain"
               />
