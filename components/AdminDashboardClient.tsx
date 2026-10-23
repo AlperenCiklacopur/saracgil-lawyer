@@ -25,8 +25,6 @@ import {
   MessageSquare,
   Calendar,
   Inbox,
-  Send,
-  User,
   CheckCircle2
 } from 'lucide-react';
 
@@ -123,8 +121,9 @@ export default function AdminDashboardClient({
         setSelectedInquiry(data.inquiry);
       }
       setStatusMessage({ type: 'success', text: 'Talep durumu güncellendi.' });
-    } catch (err: any) {
-      setStatusMessage({ type: 'error', text: err.message || 'Hata oluştu.' });
+    } catch (err: unknown) {
+      const errorMsg = err instanceof Error ? err.message : "Hata oluştu.";
+      setStatusMessage({ type: 'error', text: errorMsg });
     } finally {
       setLoading(false);
     }
@@ -149,8 +148,9 @@ export default function AdminDashboardClient({
         setSelectedInquiry(data.inquiry);
       }
       setStatusMessage({ type: 'success', text: 'Avukat notu kaydedildi.' });
-    } catch (err: any) {
-      setStatusMessage({ type: 'error', text: err.message || 'Hata oluştu.' });
+    } catch (err: unknown) {
+      const errorMsg = err instanceof Error ? err.message : "Hata oluştu.";
+      setStatusMessage({ type: 'error', text: errorMsg });
     } finally {
       setLoading(false);
     }
@@ -171,8 +171,9 @@ export default function AdminDashboardClient({
         setSelectedInquiry(null);
       }
       setStatusMessage({ type: 'success', text: 'Talep kaydı silindi.' });
-    } catch (err: any) {
-      setStatusMessage({ type: 'error', text: err.message || 'Silme hatası.' });
+    } catch (err: unknown) {
+      const errorMsg = err instanceof Error ? err.message : "Hata oluştu.";
+      setStatusMessage({ type: 'error', text: errorMsg });
     } finally {
       setLoading(false);
     }
@@ -896,7 +897,7 @@ export default function AdminDashboardClient({
                   className="flex items-center justify-center gap-2 p-3 rounded-xl bg-[#25D366] text-white text-xs font-bold hover:opacity-90 transition-opacity"
                 >
                   <MessageSquare className="w-4 h-4" />
-                  <span>WhatsApp'tan Yaz</span>
+                  <span>WhatsApp&apos;tan Yaz</span>
                 </a>
                 <a
                   href={`mailto:${selectedInquiry.email}?subject=${encodeURIComponent(

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Scale, Landmark } from 'lucide-react';
+import { Landmark } from 'lucide-react';
 
 interface MarqueeTickerProps {
   items?: string[];

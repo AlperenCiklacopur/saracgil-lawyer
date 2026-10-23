@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { X, ArrowRight, ShieldCheck, AlertCircle } from 'lucide-react';
 
@@ -16,23 +16,22 @@ export default function SecretLoginModal({ isOpen, onClose }: SecretLoginModalPr
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
+  const handleClose = useCallback(() => {
+    setError(null);
+    setUsername('');
+    setPassword('');
+    onClose();
+  }, [onClose]);
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && isOpen) {
-        onClose();
+        handleClose();
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, onClose]);
-
-  useEffect(() => {
-    if (isOpen) {
-      setError(null);
-      setUsername('');
-      setPassword('');
-    }
-  }, [isOpen]);
+  }, [isOpen, handleClose]);
 
   if (!isOpen) return null;
 
@@ -57,7 +56,7 @@ export default function SecretLoginModal({ isOpen, onClose }: SecretLoginModalPr
       }
 
       router.push('/admin');
-      onClose();
+      handleClose();
     } catch {
       setError('Bağlantı hatası oluştu.');
       setLoading(false);
@@ -72,7 +71,7 @@ export default function SecretLoginModal({ isOpen, onClose }: SecretLoginModalPr
       >
         {/* Close button */}
         <button
-          onClick={onClose}
+          onClick={handleClose}
           className="absolute top-5 right-5 p-2 rounded-full text-zinc-400 hover:text-white hover:bg-[#0b1a30] transition-colors"
           title="Kapat (Esc)"
         >

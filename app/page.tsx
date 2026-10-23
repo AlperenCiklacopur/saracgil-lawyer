@@ -13,8 +13,6 @@ import {
   Building2, 
   Mail, 
   Scale,
-  Gavel,
-  Award
 } from 'lucide-react';
 
 export default async function HomePage() {

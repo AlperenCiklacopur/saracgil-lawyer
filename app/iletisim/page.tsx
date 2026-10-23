@@ -38,8 +38,9 @@ export default function ContactPage() {
 
       setInquiryId(data.inquiryId || null);
       setFormSubmitted(true);
-    } catch (err: any) {
-      setErrorMessage(err.message || 'Sunucu ile bağlantı kurulamadı. Lütfen tekrar deneyiniz.');
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Sunucu ile bağlantı kurulamadı. Lütfen tekrar deneyiniz.';
+      setErrorMessage(msg);
     } finally {
       setLoading(false);
     }
