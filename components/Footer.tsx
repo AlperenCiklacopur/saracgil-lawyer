@@ -121,6 +121,11 @@ export default function Footer({ onSecretTrigger }: FooterProps) {
                 </Link>
               </li>
               <li>
+                <Link href="/asgari-ucret-tarifesi" className="hover:text-[#c5a059] transition-colors">
+                  Asgari Ücret Tarifesi (AAÜT)
+                </Link>
+              </li>
+              <li>
                 <Link href="/blog" className="hover:text-[#c5a059] transition-colors">
                   Hukuki Blog & Makaleler
                 </Link>

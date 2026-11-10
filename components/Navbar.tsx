@@ -31,6 +31,7 @@ export default function Navbar() {
     { label: 'Ana Sayfa', href: '/' },
     { label: 'Hakkımızda', href: '/#hakkimizda' },
     { label: 'Faaliyet Alanları', href: '/#faaliyet-alanlari' },
+    { label: 'Ücret Tarifesi', href: '/asgari-ucret-tarifesi' },
     { label: 'Hukuki Blog', href: '/blog' },
     { label: 'İletişim', href: '/iletisim' },
   ];
